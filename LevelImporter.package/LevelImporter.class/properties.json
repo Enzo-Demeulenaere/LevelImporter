@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "LevelImporter",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"lines",
+		"characterClassBinding"
+	],
+	"name" : "LevelImporter",
+	"type" : "normal"
+}
