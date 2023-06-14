@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"importer"
+	],
 	"name" : "LevelImporterTest",
 	"type" : "normal"
 }

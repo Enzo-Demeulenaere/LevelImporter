@@ -1,11 +1,11 @@
 tests
 testBuildArrayFor
 
-	| tool string res |
-	tool := LevelImporter new.
-	string := '0 1
-	_ _'.
+	| string res |
+	self setUp.
+	string := '01
+	__'.
 
-	res := tool buildArrayFor: string.
+	res := self importer buildArrayFor: string.
 
 	self assert: res contents equals: #( $0 $1 $_ $_ )

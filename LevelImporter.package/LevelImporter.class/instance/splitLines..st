@@ -1,4 +1,5 @@
 as yet unclassified
 splitLines: aString
-
-	^ aString splitOn: Character cr
+	^ aString splitOn: {
+			  Character cr.
+			  Character tab }
