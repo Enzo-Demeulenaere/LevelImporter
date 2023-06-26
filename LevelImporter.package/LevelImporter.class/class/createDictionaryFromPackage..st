@@ -10,5 +10,6 @@ createDictionaryFromPackage: aRPackage
 		self error:
 			'No class with #textualMapCharacter method in this package' ].
 	classes do: [ :each |
-		dictionary at: each textualMapCharacter put: each new ].
+
+		dictionary at: each textualMapCharacter put: each ].
 	^ dictionary
